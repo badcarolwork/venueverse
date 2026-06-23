@@ -18,7 +18,7 @@ export default function HomePage() {
       <Section spacing="hero" className="!pt-0">
         <div
           aria-hidden="true"
-          className="relative mb-12 overflow-hidden rounded-xl border border-border bg-surface md:mb-16 md:rounded-2xl"
+          className="relative mb-12 overflow-hidden rounded-xl border border-border bg-surface md:mb-16 md:rounded-2xl hidden"
         >
           <div className="aspect-[16/9] w-full bg-gradient-to-br from-stone-900 via-stone-800 to-amber-950 dark:from-stone-950 dark:via-stone-900 dark:to-amber-950/40" />
           <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
