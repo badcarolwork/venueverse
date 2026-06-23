@@ -46,7 +46,7 @@ export function VenueCard({
       >
         {isHomePage ? (
           <span
-            className={`fi fi-${COUNTRY_FLAG_CODES[countrySlug] } absolute left-3 top-3 z-10 rounded-sm text-2xl shadow-medium`}
+            className={`fi fi-${COUNTRY_FLAG_CODES[countrySlug ?? ""] ?? "xx"} absolute left-3 top-3 z-10 rounded-sm text-2xl shadow-medium`}
             role="img"
             aria-label={`${name} flag`}
           />
