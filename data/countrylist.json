@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Thailand",
+        "code": "TH",
+        "img": "/flags/thailand.png"
+    },
+    {
+        "name": "Malaysia",
+        "code": "MY",
+        "img": "/flags/malaysia.png"    
+    },
+    {
+        "name": "Singapore",
+        "code": "SG",
+        "img": "/flags/singapore.png"
+    },
+    {
+        "name": "Taiwan",
+        "code": "TW",
+        "img": "/flags/taiwan.png"
+    }
+]

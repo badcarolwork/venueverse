@@ -1,0 +1,90 @@
+[
+  {
+    "id": "bk-impact-arena",
+    "slug": "impact-arena",
+    "name": "Impact Arena",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "countryImg": "thailand.png",
+    "capacity": 12000,
+    "squareFeet": 270000,
+    "address": "Muang Thong Thani, 99 Popular Road, Banmai, Pak Kret, Nonthaburi",
+    "photos": [
+      "/venues/impact-arena-1.jpg",
+      "/venues/impact-arena-2.jpg",
+      "/venues/impact-arena-3.jpg"
+    ],
+    "seatMap": "/seatmaps/impact-arena.svg",
+    "pastConcerts": [
+      { "artist": "Maroon 5", "date": "2024-02-28", "attendance": 11500 },
+      { "artist": "Dua Lipa", "date": "2023-11-11", "attendance": 11800 }
+    ],
+    "amenities": ["Parking", "Exhibition complex access", "F&B zones"],
+    "featured": true
+  },
+  {
+    "id": "bk-thunder-dome",
+    "slug": "thunder-dome",
+    "name": "Thunder Dome",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "countryImg": "thailand.png",
+    "capacity": 12000,
+    "squareFeet": 260000,
+    "address": "Muang Thong Thani, 99 Popular Road, Banmai, Pak Kret, Nonthaburi",
+    "photos": [
+      "/venues/thunder-dome-1.jpg",
+      "/venues/thunder-dome-2.jpg",
+      "/venues/thunder-dome-3.jpg"
+    ],
+    "seatMap": "/seatmaps/thunder-dome.svg",
+    "pastConcerts": [
+      { "artist": "BTS", "date": "2019-04-07", "attendance": 12000 },
+      { "artist": "TWICE", "date": "2023-07-08", "attendance": 11500 }
+    ],
+    "amenities": ["Parking", "Indoor arena", "VIP boxes"],
+    "featured": true
+  },
+  {
+    "id": "bk-mcc-hall",
+    "slug": "mcc-hall",
+    "name": "MCC Hall",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "countryImg": "thailand.png",
+    "capacity": 2000,
+    "squareFeet": 38000,
+    "address": "The Mall Bangkapi, 3522 Lat Phrao Road, Khlong Chan, Bang Kapi, Bangkok",
+    "photos": [
+      "/venues/mcc-hall-1.jpg",
+      "/venues/mcc-hall-2.jpg",
+      "/venues/mcc-hall-3.jpg"
+    ],
+    "seatMap": "/seatmaps/mcc-hall.svg",
+    "pastConcerts": [
+      { "artist": "IU", "date": "2023-09-30", "attendance": 1950 }
+    ],
+    "amenities": ["Mall parking", "Intimate setting", "Air conditioning"]
+  },
+  {
+    "id": "bk-rajamangala",
+    "slug": "rajamangala-national-stadium",
+    "name": "Rajamangala National Stadium",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "countryImg": "thailand.png",
+    "capacity": 50000,
+    "squareFeet": 900000,
+    "address": "Ramkhamhaeng Road, Hua Mak, Bang Kapi, Bangkok",
+    "photos": [
+      "/venues/rajamangala-1.jpg",
+      "/venues/rajamangala-2.jpg",
+      "/venues/rajamangala-3.jpg"
+    ],
+    "seatMap": "/seatmaps/rajamangala.svg",
+    "pastConcerts": [
+      { "artist": "Ed Sheeran", "date": "2024-04-29", "attendance": 48000 }
+    ],
+    "amenities": ["National stadium", "Parking", "Large-scale events"]
+  }
+]

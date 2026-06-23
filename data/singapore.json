@@ -1,0 +1,48 @@
+[
+  {
+    "id": "sg-indoor-stadium",
+    "slug": "singapore-indoor-stadium",
+    "name": "Singapore Indoor Stadium",
+    "country": "Singapore",
+    "city": "Singapore",
+    "countryImg": "singapore.png",
+    "capacity": 12000,
+    "squareFeet": 280000,
+    "address": "2 Stadium Walk, Singapore 397691",
+    "photos": [
+      "/venues/sgindoorstadium-1.webp",
+      "/venues/sgindoorstadium-2.webp",
+      "/venues/sgindoorstadium-3.webp"
+    ],
+    "seatMap": "/seatmaps/sgindoorstadium-seatmap.webp",
+    "pastConcerts": [
+      { "artist": "Taylor Swift", "date": "2024-03-02", "attendance": 11800 },
+      { "artist": "Bruno Mars", "date": "2023-05-06", "attendance": 11500 }
+    ],
+    "amenities": ["MRT access", "Parking", "Wheelchair accessible", "F&B zones"],
+    "featured": true
+  },
+  {
+    "id": "sg-national-stadium",
+    "slug": "national-stadium",
+    "name": "National Stadium",
+    "country": "Singapore",
+    "city": "Singapore",
+    "countryImg": "singapore.png",
+    "capacity": 55000,
+    "squareFeet": 950000,
+    "address": "1 Stadium Drive, Singapore 397629",
+    "photos": [
+      "/venues/sgnationalstadium-1.webp",
+      "/venues/sgnationalstadium-2.webp",
+      "/venues/sgnationalstadium-3.webp"
+    ],
+    "seatMap": "/seatmaps/sgnationalstadium-seatmap.webp",
+    "pastConcerts": [
+      { "artist": "Coldplay", "date": "2024-01-23", "attendance": 52000 },
+      { "artist": "Ed Sheeran", "date": "2024-02-16", "attendance": 50000 }
+    ],
+    "amenities": ["Retractable roof", "Parking", "Multiple entry gates", "F&B zones"],
+    "featured": true
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "my-axiata-arena",
+    "slug": "axiata-arena",
+    "name": "Axiata Arena",
+    "country": "Malaysia",
+    "city": "Kuala Lumpur",
+    "countryImg": "malaysia.png",
+    "capacity": 16000,
+    "squareFeet": 350000,
+    "address": "Bukit Jalil, 57000 Kuala Lumpur, Malaysia",
+    "photos": [
+      "/venues/unifiaxiataarena-1.webp",
+      "/venues/unifiaxiataarena-2.webp",
+      "/venues/unifiaxiataarena-3.webp"
+    ],
+    "seatMap": "/seatmaps/unifiaxiataarena-seatmap.webp",
+    "pastConcerts": [
+      { "artist": "Coldplay", "date": "2023-11-22", "attendance": 15500 },
+      { "artist": "Ed Sheeran", "date": "2024-04-06", "attendance": 14800 }
+    ],
+    "amenities": ["Parking", "Wheelchair accessible", "F&B zones", "VIP lounges"],
+    "featured": true
+  },
+  {
+    "id": "my-stadium-bukit-jalil",
+    "slug": "stadium-bukit-jalil",
+    "name": "TM Stadium Bukit Jalil (outdoor)",
+    "country": "Malaysia",
+    "city": "Kuala Lumpur",
+    "countryImg": "malaysia.png",
+    "capacity": 87000,
+    "squareFeet": 1200000,
+    "address": "Jalan Barat, Bukit Jalil, 57000 Kuala Lumpur, Malaysia",
+    "photos": [
+      "/venues/tmbukitjalilstadium-1.webp",
+      "/venues/tmbukitjalilstadium-2.webp",
+      "/venues/tmbukitjalilstadium-3.webp"
+    ],
+    "seatMap": "/seatmaps/tmbukitjalilstadium-seatmap.webp",
+    "pastConcerts": [
+      { "artist": "BTS", "date": "2022-10-09", "attendance": 65000 },
+      { "artist": "BLACKPINK", "date": "2023-03-04", "attendance": 58000 }
+    ],
+    "amenities": ["Parking", "Public transit access", "Multiple F&B zones"],
+    "featured": true
+  }
+]
