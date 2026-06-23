@@ -87,6 +87,7 @@ interface CountryVenueBrowserProps {
   venues: Venue[];
   countrySlug: string;
   cities: string[];
+  isHomePage?: boolean;
 }
 
 export function CountryVenueBrowser({

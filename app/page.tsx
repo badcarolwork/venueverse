@@ -55,7 +55,7 @@ export default function HomePage() {
               >
                 <div className="relative">
 
-                  <VenueCard name={country.name} img={country.countryImg} dataSlug={country.slug} isHomePage={true} />
+                  <VenueCard name={country.name} img={country.countryImg} countrySlug={country.slug} isHomePage={true} />
                 </div>
               </Link>
             ))}

@@ -12,7 +12,7 @@ interface VenueCardProps {
   capacity?: number;
   variant?: "grid" | "featured";
   className?: string;
-  dataSlug?: string;
+  countrySlug?: string;
   isHomePage?: boolean;
 }
 const COUNTRY_FLAG_CODES: Record<string, string> = {
@@ -29,7 +29,7 @@ export function VenueCard({
   capacity,
   variant = "grid",
   className,
-  dataSlug,
+  countrySlug,
   isHomePage,
 }: VenueCardProps) {
   const isFeatured = variant === "featured";
@@ -46,7 +46,7 @@ export function VenueCard({
       >
         {isHomePage ? (
           <span
-            className={`fi fi-${COUNTRY_FLAG_CODES[dataSlug] ?? "xx"} absolute left-3 top-3 z-10 rounded-sm text-2xl shadow-medium`}
+            className={`fi fi-${COUNTRY_FLAG_CODES[countrySlug] } absolute left-3 top-3 z-10 rounded-sm text-2xl shadow-medium`}
             role="img"
             aria-label={`${name} flag`}
           />
