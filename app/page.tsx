@@ -54,7 +54,6 @@ export default function HomePage() {
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-5 py-2.5 text-body-sm text-muted transition-colors hover:border-accent/40 hover:text-foreground"
               >
                 <div className="relative">
-
                   <VenueCard name={country.name} img={country.countryImg} countrySlug={country.slug} isHomePage={true} />
                 </div>
               </Link>

@@ -1,6 +1,6 @@
 import type { Concert } from "@/types/concert";
 import type { Country, Venue } from "@/types/venue";
-
+import { FaGlobeAmericas } from "react-icons/fa";
 import bangkokData from "@/data/bangkok.json";
 import malaysiaData from "@/data/malaysia.json";
 import singaporeData from "@/data/singapore.json";
@@ -57,7 +57,6 @@ function getAllVenues(): Venue[] {
 export function getCountries(): Country[] {
   return Object.entries(venuesByCountry).map(([slug, venues]) => {
     const info = COUNTRY_INFO[slug];
-
     return {
       slug,
       name: info?.name ?? slug,
@@ -66,7 +65,7 @@ export function getCountries(): Country[] {
       description:
         info?.description ??
         `Discover iconic concert venues across ${info?.name ?? slug}.`,
-      flag: info?.flag ?? "🌏",
+      flag: info?.flag ?? FaGlobeAmericas,
     };
   });
 }

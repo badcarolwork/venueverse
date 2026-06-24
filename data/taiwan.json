@@ -10,11 +10,11 @@
     "squareFeet": 310000,
     "address": "No. 105, Section 4, Nanjing East Road, Songshan District, Taipei City",
     "photos": [
-      "/venues/taipei-arena-1.jpg",
-      "/venues/taipei-arena-2.jpg",
-      "/venues/taipei-arena-3.jpg"
+      "/venues/taipeiarena-1.webp",
+      "/venues/taipeiarena-2.webp",
+      "/venues/taipeiarena-3.webp"
     ],
-    "seatMap": "/seatmaps/taipei-arena.svg",
+    "seatMap": "/seatmaps/taipeiarena-seatmap.webp",
     "pastConcerts": [
       { "artist": "Mayday", "date": "2024-01-01", "attendance": 14500 },
       { "artist": "Aespa", "date": "2024-06-29", "attendance": 14000 }
@@ -25,86 +25,23 @@
   {
     "id": "tw-kaohsiung-arena",
     "slug": "kaohsiung-arena",
-    "name": "Kaohsiung Arena",
+    "name": "Kaohsiung Arena K-ARENA",
     "country": "Taiwan",
     "city": "Kaohsiung",
     "capacity": 15000,
     "squareFeet": 300000,
     "address": "No. 100, Jhongshan 4th Road, Zuoying District, Kaohsiung City",
     "photos": [
-      "/venues/kaohsiung-arena-1.jpg",
-      "/venues/kaohsiung-arena-2.jpg",
-      "/venues/kaohsiung-arena-3.jpg"
+      "/venues/kaohsiungarena-1.webp",
+      "/venues/kaohsiungarena-2.webp",
+      "/venues/kaohsiungarena-3.webp"
     ],
-    "seatMap": "/seatmaps/kaohsiung-arena.svg",
+    "seatMap": "/seatmaps/kaohsiungarena-seatmap.webp",
     "pastConcerts": [
       { "artist": "BLACKPINK", "date": "2023-07-15", "attendance": 14800 },
       { "artist": "JJ Lin", "date": "2024-03-23", "attendance": 14200 }
     ],
     "amenities": ["Parking", "MRT access", "Indoor climate control"],
     "featured": true
-  },
-  {
-    "id": "tw-sun-yat-sen-hall",
-    "slug": "national-sun-yat-sen-memorial-hall",
-    "name": "National Sun Yat-sen Memorial Hall",
-    "country": "Taiwan",
-    "city": "Taipei",
-    "countryImg": "taiwan.png",
-    "capacity": 2500,
-    "squareFeet": 48000,
-    "address": "No. 505, Section 4, Ren'ai Road, Xinyi District, Taipei City",
-    "photos": [
-      "/venues/sun-yat-sen-hall-1.jpg",
-      "/venues/sun-yat-sen-hall-2.jpg",
-      "/venues/sun-yat-sen-hall-3.jpg"
-    ],
-    "seatMap": "/seatmaps/sun-yat-sen-hall.svg",
-    "pastConcerts": [
-      { "artist": "Teresa Teng Tribute", "date": "2023-12-08", "attendance": 2300 }
-    ],
-    "amenities": ["Historic venue", "MRT access", "Cultural exhibitions"]
-  },
-  {
-    "id": "tw-taipei-music-center",
-    "slug": "taipei-music-center",
-    "name": "Taipei Music Center",
-    "country": "Taiwan",
-    "city": "Taipei",
-    "countryImg": "taiwan.png",
-    "capacity": 5000,
-    "squareFeet": 95000,
-    "address": "No. 99, Civic Blvd, Nangang District, Taipei City",
-    "photos": [
-      "/venues/taipei-music-center-1.jpg",
-      "/venues/taipei-music-center-2.jpg",
-      "/venues/taipei-music-center-3.jpg"
-    ],
-    "seatMap": "/seatmaps/taipei-music-center.svg",
-    "pastConcerts": [
-      { "artist": "Nine Chen", "date": "2024-05-18", "attendance": 4800 }
-    ],
-    "amenities": ["Outdoor amphitheatre", "Parking", "Music industry hub"]
-  },
-  {
-    "id": "tw-tainan-arena",
-    "slug": "tainan-arena",
-    "name": "Tainan Arena",
-    "country": "Taiwan",
-    "city": "Tainan",
-    "countryImg": "taiwan.png",
-    "capacity": 12000,
-    "squareFeet": 250000,
-    "address": "No. 250, Section 1, Jiankang Road, East District, Tainan City",
-    "photos": [
-      "/venues/tainan-arena-1.jpg",
-      "/venues/tainan-arena-2.jpg",
-      "/venues/tainan-arena-3.jpg"
-    ],
-    "seatMap": "/seatmaps/tainan-arena.svg",
-    "pastConcerts": [
-      { "artist": "Jolin Tsai", "date": "2023-08-12", "attendance": 11500 }
-    ],
-    "amenities": ["Parking", "Indoor arena", "Regional concert hub"]
   }
 ]

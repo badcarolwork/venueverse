@@ -131,7 +131,6 @@ export function CountryVenueBrowser({
         title="All venues"
         description="Filter by name, location, or venue type. Results update instantly."
       />
-
       <VenueFilterBar
         search={search}
         location={location}
@@ -142,7 +141,6 @@ export function CountryVenueBrowser({
         onLocationChange={setLocation}
         onVenueTypeChange={setVenueType}
       />
-
       {filteredVenues.length > 0 ? (
         <>
           <p className="text-body-sm text-muted">

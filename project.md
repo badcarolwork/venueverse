@@ -299,6 +299,27 @@ Avoid:
 - Enterprise SaaS patterns
 - Overly dense information displays
 
+## Icon & Visual Asset Rules
+
+Do not use emoji characters anywhere in the application UI.
+Use proper icon libraries instead.
+
+Preferred options:
+* Lucide React
+* Flag Icons
+* Flaticon assets (when appropriate)
+* Custom SVG icons
+
+This rule applies to:
+* Components
+* Navigation
+* Buttons
+* Cards
+* Empty states
+* Status indicators
+* Placeholder content
+
+
 Users should feel like they are exploring iconic concert venues, not browsing a database.
 
 ---
